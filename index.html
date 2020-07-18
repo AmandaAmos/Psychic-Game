@@ -7,12 +7,15 @@
     <!--Bootstrap link-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <!-- <link rel="stylesheet" href="C:\Users\Cabra\UABootcamp\Psychic-Game\assests\css\style.css"> -->
+    <link rel="stylesheet" type="text/css" href="./assests/css/style.css">
+    
 
 </head>
 
+
 <body>
+    
+    
     <!--Make container, layout, and text of game-->
     <div class="container">
         <!--title container-->
@@ -24,40 +27,30 @@
         <hr>
     </div>
     <div class="container">
-        <div id="GuessWhat" class="card">
+        <div id="guessWhat" class="card">
             <h4 class="text-center">
                 <strong>Guess What I'm thinking!</strong>
             </h4>
+            <h6 class="text-center">You have six chances to guess correct. </h6>
         </div>
         <hr>
     </div>
-    <div class="container">
-        <div id="Wins" class="card">
-            <h4>Wins(!):</h4>
-        </div>
-    </div>
-    <div class="container">
-        <div id="Losses" class="card">
-            <h4>Losses:</h4>
-        </div>
-    </div>
-    <div class="container">
-        <div id="GuessLeft" class="card">
-            <h4>Guesses Left:</h4>
-        </div>
-    </div>
-    <div class="container">
-        <div id="GuessSoFar" class="card">
-            <h4>Your guesses so far:</h4>
-        </div>
-    </div>
-    </div>
-    <hr>
-</body>
-<footer>
     
-</footer>
-<script src="assests/javascript/game.js"></script>
+    <div class="container">
+        <div class="jumbotron">
+      
+            <div id="game_output">
 
+
+            </div>
+        </div>
+    </div>
+
+   <div>
+       <img href="assests/images/images.jpg">
+   </div> 
+</body>
+
+<script type="text/javascript" src="assests/javascript/game.js"></script>
 
 </html>

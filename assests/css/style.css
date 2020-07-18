@@ -1,4 +1,14 @@
-footer {
-    background-image: image-set(assests/images/images);
-    background-repeat: repeat;
+
+
+body {
+    margin-top: 25px;
+    background-color: firebrick;
+    text-align: center;
+    font: icon;
+};
+
+#game_output {
+    text-align: center;
+    background-color: azure;
+    
 };
